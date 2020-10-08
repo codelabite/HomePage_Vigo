@@ -1,0 +1,77 @@
+body {
+  /* background: radial-gradient(#e5e5e5, #fff, #e5e5e5); */
+
+  background: radial-gradient(#f6f6f6, #f6f6f6, #f6f6f6);
+}
+
+.card {
+  width: 20rem;
+  /* width: 100%; */
+  background-color: red;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.card-body {
+  padding: 0rem 0 !important;
+  padding-top: 10rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  padding: 0.4rem 1.9rem;
+  text-align: start;
+}
+
+.card-text-h1 {
+  font-size: 1rem;
+  padding: 0.4rem 1.9rem;
+  text-align: center;
+}
+
+.container-fluid .row {
+  padding-top: 0rem !important;
+  padding-bottom: 30rem;
+}
+
+.overflow {
+  overflow: hidden;
+}
+.card-img-top {
+  transform: scale(1);
+  transition: transform 1s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.card-text {
+  align-content: flex-start;
+  color: red;
+}
+
+.btn {
+  align-content: flex-end;
+}
+
+.button {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #1c2237;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  /* text-decoration: none;
+  display: inline-block; */
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  float: right;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 90%;
+  color: aliceblue;
+}

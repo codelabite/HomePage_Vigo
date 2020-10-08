@@ -1,0 +1,15 @@
+export const BlogData = {
+  primary: false,
+  lightBg: true,
+  imgStart: "",
+  lightTopLine: false,
+  topLine: "Vego Corporation",
+  lightText: false,
+  lightTextDesc: false,
+  headLine: "INTO AFRICA AND OUT OF AFRICA MARKETING",
+  buttonLabel: "Get Started",
+  description: "We can help you sell, faster!",
+  img: require("../../image/test.svg"),
+  start: "",
+  alt: "save money with us!",
+};
